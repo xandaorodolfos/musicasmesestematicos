@@ -1,0 +1,119 @@
+body{
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    /* background: url("./imagens/imgbg.jpg") no-repeat center fixed; */
+    
+    
+
+    
+   
+}
+
+/* #img{
+    background: url("./imagens/imgbg.jpg") no-repeat;
+    width: 100% !important;
+    
+} */
+
+
+/* .banner{
+    float: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 90%;
+    background: url("./imagens/imagemsanta.jpeg") bottom no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+  
+}
+
+.tudao{
+    z-index: 2;
+} */
+
+/* body::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    color: #000;
+    padding: 20px;
+}
+ #imagemdefundo > img{
+    background-image: url("./imagens/imagemsanta.jpeg");
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    width: 1000%;
+    height: 100px;
+    opacity: 0.3;
+    
+
+} */
+
+.titulo{
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 36px;
+
+}
+
+
+a {
+   font-size: 24px;
+   font: bold;
+   color: rgb(92, 14, 14);
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: bold;
+     
+    
+}
+
+li {
+    margin: 5px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.fonte{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+
+@media (max-width: 600px) {
+    .titulo {
+        font-size: 24px; /* Metade do tamanho padrão */
+    }
+}
+
+
+@media (max-width: 600px) {
+    .footer {
+        font-size: 8px; /* Metade do tamanho padrão */
+    }
+}
