@@ -117,3 +117,9 @@ li {
         font-size: 8px; /* Metade do tamanho padrão */
     }
 }
+
+
+.textlivro{
+    font-size: 16px;
+    font-weight: bold;
+}
